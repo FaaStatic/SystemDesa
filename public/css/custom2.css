@@ -1,0 +1,172 @@
+.warna2 {
+  background-color: #204051;
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  box-shadow: 1px 1px 10px 1px#e7dfd5;
+}
+
+.navbar,
+.navbar-brand,
+.navbar-nav,
+.navbar-item {
+  color: #e7dfd5;
+}
+nav li a {
+  text-decoration: none;
+  color: #e7dfd5;
+}
+
+nav li a:link {
+  color: #e7dfd5;
+}
+.dropdown-item:link {
+  color: #204051;
+}
+
+.wrapper {
+  display: flex;
+  margin: 0;
+}
+aside {
+  max-width: 2500px;
+  min-width: 250px;
+  float: left;
+
+  min-height: 100vh;
+  background-image: url("/assets/bglogu.jpg");
+  background-size: cover;
+}
+
+.navbar-brand a {
+  text-decoration: none;
+  color: #e7dfd5;
+  font-size: 40px;
+}
+
+.pesan-pengguna {
+  width: 800px;
+  height: 35vh;
+  padding: 25px;
+  margin-left: 15%;
+  background-color: #e7dfd5;
+  border-radius: 20px;
+  color: #204051;
+}
+
+.mintasurat {
+  width: 300px;
+  height: 200px;
+  background-color: yellowgreen;
+  background-image: url("/assets/suratmasuk.png");
+  background-size: auto;
+  border-radius: 10px;
+}
+
+.col a {
+  text-decoration: none;
+  color: #204051;
+}
+
+.lapor {
+  width: 300px;
+  height: 200px;
+  background-color: blanchedalmond;
+  background-image: url("/assets/laporan.png");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.cetak {
+  width: 300px;
+  height: 200px;
+  background-color: burlywood;
+  background-image: url("/assets/userlog.png");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.lapor:hover,
+.mintasurat:hover,
+.cetak:hover {
+  transform: scale(1.1);
+  transition: all 250ms ease-in-out;
+}
+
+#gear {
+  transform: rotate(0deg);
+  transition: all 500ms ease-in-out;
+}
+
+#gear.active {
+  transform: rotate(360deg);
+  transition: all 500ms ease-in-out;
+}
+
+#stand {
+  transform: scale(1);
+  transition: all 500ms ease-in-out;
+}
+
+#stand.active {
+  transform: scale(1.2);
+  transition: all 500ms ease-in-out;
+}
+
+#navbarDropdownMenuLink {
+  transform: scale(1);
+  transition: all 500ms ease-in-out;
+}
+
+#navbarDropdownMenuLink .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 100%;
+  background: red;
+  color: white;
+}
+#navbarDropdownMenuLink.active {
+  transform: scale(1.4);
+  transition: all 500ms ease-in-out;
+}
+#content-pesan {
+  padding: 10px;
+  width: 350px;
+  min-height: 10vh;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px 1px black;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+#content-laporan {
+  padding: 10px;
+  width: 350px;
+  min-height: 10vh;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px 1px black;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+#exitnotif {
+  cursor: pointer;
+  margin-left: 90%;
+}
+.dropdown-menu {
+  padding: 5px;
+  width: 360px;
+  min-width: 10vh;
+  min-height: 50vh;
+}
+
+#exitnotif {
+  right: -10px;
+}
